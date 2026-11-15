@@ -60,11 +60,12 @@ public class BankAccountManagementSystem {
     }
 
     public double getAccountBalance(int accountNumber) {
-        if (!accounts.containsKey(accountNumber)) {
-            System.out.println("Account " + accountNumber + " does not exist.");
-            return -1.0;
-        }
-        return accounts.get(accountNumber);
+
+        double balance = 0;
+
+        balance = accounts.get(accountNumber);
+
+        return balance;
     }
 }
 
