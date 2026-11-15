@@ -8,7 +8,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class getAccountBalanceTest {
+public class getaccountbalancetest {
 
     private static final double DELTA = 0.0001;
 
