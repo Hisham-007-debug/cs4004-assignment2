@@ -1,11 +1,11 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class BankAccountManagementSystem {
+public class Grp6_BankAccountManagementSystem {
 
     private Map<Integer, Double> accounts;
 
-    public BankAccountManagementSystem() {
+    public Grp6_BankAccountManagementSystem() {
         this.accounts = new HashMap<>();
     }
 

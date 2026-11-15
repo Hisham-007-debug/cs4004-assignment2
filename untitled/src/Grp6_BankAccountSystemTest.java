@@ -6,20 +6,20 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.*;
 
 /** Combined JUnit 5 tests: create account, deposit, withdrawal, and get account balance. */
-public class BankAccountSystemTest {
+public class Grp6_BankAccountSystemTest {
     private static final double DELTA = 0.0001;
-    private BankAccountManagementSystem bank;
+    private Grp6_BankAccountManagementSystem bank;
 
     @BeforeEach
     void setUp() {
-        bank = new BankAccountManagementSystem();
+        bank = new Grp6_BankAccountManagementSystem();
     }
 
 // ===== CREATE ACCOUNT =====
 @Test
     public void testCreateAccount() {
 
-        BankAccountManagementSystem bank = new BankAccountManagementSystem();
+        Grp6_BankAccountManagementSystem bank = new Grp6_BankAccountManagementSystem();
 
 // Test 1: Create an account with a positive balance
         assertTrue(bank.createAccount(12345, 1.0));
